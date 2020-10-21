@@ -37,6 +37,10 @@ a {
     text-decoration: none;
 }
 
+.container { 
+    overflow: hidden
+}
+
 html, body {
     overflow-x: hidden;
     width: 100vw;
