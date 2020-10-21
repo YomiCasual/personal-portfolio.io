@@ -16,7 +16,7 @@ sr.reveal('.animate-right', {
     origin: 'right',
     duration: 1500,
     distance: '10rem',
-    delay: 1200,
+    delay: 600,
     easing: 'cubic-bezier(0.5, 0, 0, 1)'
 })
 
@@ -24,7 +24,7 @@ sr.reveal('.animate-up', {
     origin: 'up',
     duration: 1500,
     distance: '10rem',
-    delay: 1200,
+    delay: 600,
     easing: 'cubic-bezier(0.5, 0, 0, 1)'
 })
 
@@ -32,7 +32,7 @@ sr.reveal('.animate-down', {
     origin: 'down',
     duration: 1500,
     distance: '10rem',
-    delay: 1200,
+    delay: 600,
     easing: 'cubic-bezier(0.5, 0, 0, 1)'
 })
 
