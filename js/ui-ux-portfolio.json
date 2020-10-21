@@ -1,0 +1,80 @@
+{
+    "graphicPortfolio" : [ 
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop3.jpg",
+            "filter": "desktop",
+            "title": "Afrilearn",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop2.jpg",
+            "filter": "desktop",
+            "title": "Purple Pork",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop4.png",
+            "filter": "desktop",
+            "title": "concept nova",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop5.png",
+            "filter": "desktop",
+            "title": "afrilearn mock-up",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop8.jpg",
+            "filter": "desktop",
+            "title": "Purple Pork responsive",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop1.jpg",
+            "filter": "desktop",
+            "title": "e-commerce store",
+            "text": "desktop"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop6.png",
+            "filter": "desktop",
+            "title": "concept-nova mock-up",
+            "text": "desktop"
+        } },
+
+
+
+        { "item": {
+            "image": "./img/portfolio/UI-UX/mobile1.jpg",
+            "filter": "mobile",
+            "title": "Whatsapp Redesign",
+            "text": "mobile"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/mobile2.jpg",
+            "filter": "mobile",
+            "title": "Bookworm",
+            "text": "mobile"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/mobile3.jpg",
+            "filter": "mobile",
+            "title": "E-commerce Store",
+            "text": "mobile"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/mobile4.jpg",
+            "filter": "mobile",
+            "title": "Indian Professional Forum",
+            "text": "mobile"
+        } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/mobile5.png",
+            "filter": "mobile",
+            "title": "PiggyVest",
+            "text": "mobile"
+        } }
+
+    ]
+}

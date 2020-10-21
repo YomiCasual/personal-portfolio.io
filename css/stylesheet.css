@@ -1,0 +1,757 @@
+@import url('./fonts.css');
+
+/* Settings  */
+*,
+*::before,
+*::after, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat var(--roboto), sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #1E1818;
+    --debug:  1px solid black;
+    --primary-color: #70C1B3;
+    --primary-color2: #EFCB68;
+    --title-color: #141313;
+    --text-color: #777777;  
+    --border-color: #201f1f17;  
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 5px 14px rgba(57, 56, 61, 0.105);
+  
+
+    /* font family variables. */ 
+    --roboto: 'Roboto', cursive;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.padding-class{
+    padding: 3rem 2rem;
+}
+
+
+.font-family {
+    font-family: var(--roboto);
+}
+
+.title-style {
+    color: var(--primary-color2)!important
+}
+
+.title-style span{
+    color: var(--primary-color)!important
+}
+
+
+/* End  of settings */
+/* Beginning of Header */
+header {
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 0;
+    background: white;
+    box-shadow: var(--box-shadow)
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-container {
+    width: 100%;
+    padding: 0.5rem 2rem;
+    /* border: var(--debug) */
+}
+
+.navbar-brand {
+    margin-left: 1.5rem;
+    font-size: 1.6rem;
+    position: relative;
+    font-weight: 900;
+    color: var(--main-color)
+}
+
+.navbar-brand span {    
+    color: var(--primary-color)
+}
+
+header .navbar-toggler {
+    padding: 0rem 0.5rem !important;
+    height: 2.0rem;
+    background: var(--primary-color2);
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    transition: background 0.6s;
+}
+
+header .navbar-toggler:hover {
+    border: none;
+    background: white;
+    border: 2px solid var(--primary-color2);
+   
+} 
+
+header .navbar-toggler:hover span {
+    color: var(--primary-color2)
+}
+
+header .navbar-toggler span {
+    color: white;
+}
+
+
+header .navbar .navbar-collapse {
+    padding: 0!important;
+    background: var(--main-color);
+    /* transform: translateY(-1000%) */
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 0.4rem 0;
+    font-weight: 500;
+    text-align: center;
+    background: transparent;
+    transition: background .5s
+}
+
+.nav-item:hover{
+    background: var(--primary-color2); 
+}
+
+.nav-item:hover a {
+    color: var(--main-color)!important;
+    margin: 0;
+}
+
+
+.nav-item a {
+    color: white!important
+}
+
+.active {
+    padding: 0;
+    margin-top: 0;
+}
+
+
+.navbar-toggler-open {
+    transition: 0.5s linear;
+    animation: 1s slide forwards;
+}
+
+
+
+
+
+/* Beginning of Hero */
+
+.hero {
+    background: var(--main-color);
+    padding: 4rem 2rem;
+}
+
+
+.hero-title h3 {
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 0.1rem;
+    color: var(--primary-color)
+
+}
+
+.hero-title h2 {
+    font-size: 4rem;
+    color:white;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.hero-title h2 span {
+    margin-top: -0.5rem;
+    display: block;
+    color: var(--primary-color2)
+}
+
+.hero-title .sub-headline {
+    font-size: 0.9rem;
+    color: var(--primary-color2);
+}
+
+.sub-headline i {
+    font-size: 0.4rem;
+    margin: 0 0.5rem;
+    transform: translateY(-4px)
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 0;
+    padding: 1rem 2.5rem
+}
+
+.margin-bottom {
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;;
+}
+
+.button-class {
+    display: flex;
+}
+
+.button-primary {
+    background-color: var(--primary-color2);
+    padding: 0.5rem 1.2rem;
+    color: var(--main-color)!important;
+    position: relative;
+    transition: background 0.6s;
+    transition: color 0.6s;
+    display: inline-block
+}
+
+.hero .button-primary {
+    margin-right: 1rem;
+
+}
+
+.button-secondary {
+    background-color: transparent!important;
+    padding: 0.5rem 1.2rem;
+    position: relative;
+    display: inline-block;
+    color: var(--primary-color2)!important;
+    transition: background 0.6s;
+    transition: color 0.6s;
+    border: 2px solid var(--primary-color2)
+}
+
+.button-primary:before {
+    left: -3.5px
+}
+
+.button-primary:hover {
+    background: transparent;
+    color: var(--primary-color2)!important;
+    border: 2px solid var(--primary-color2)
+}
+
+
+.button-secondary:hover {
+    background: var(--primary-color2)!important;
+    color: var(--main-color)!important
+}
+
+.hero-img {
+    text-align: center;
+}
+
+
+
+
+/* End of Hero */
+
+
+.about-me .hero-title p {
+    text-transform: initial;
+    line-height: 1.6rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;;
+}
+
+
+.about-me img {
+    transform: rotateY(180deg)
+}
+
+
+
+/* Beggining of skillsets */
+.skillsets {
+    padding: 4rem;
+    margin-top: 2rem;
+    background: var(--main-color);
+    text-align: center;
+
+}
+
+.skillsets .row:first-child {
+    padding: 5rem;
+}
+
+.my-card {
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-logo {
+    padding: 0rem;
+    cursor: pointer;
+    height: 100%;
+    border: 1px solid var(--border-color);
+    transform: scale(1.0);
+    background: white;
+}
+
+.skill-logo:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1)
+}
+
+.skill-logo img {
+    min-height: 100%;
+    /* width: 70px; */
+}
+
+
+
+.extra-padding {
+    padding: 2.5rem
+}
+
+.work-experience {
+    font-family: var(--roboto);
+    margin: auto 0;
+}
+
+.experience h2 {
+    font-size: 8rem;
+    display: inline;
+    color: var(--primary-color2)
+}
+
+.experience h3 {
+    position: relative;
+    transform: translateY(18px);
+    color: var(--primary-color)
+}
+
+.experience h3 span {
+    margin: 0.1rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.contact-div {
+    margin-top: 2rem;
+}
+
+.contact-div i{
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--primary-color2)
+}
+
+.telephone-no a {
+    font-size: 1.4em;
+    color: var(--primary-color)
+}
+
+.telephone-no p {
+    font-size: 1.2rem;
+    color:white
+}
+
+/* Ending of skillsets */
+
+
+
+/* Beginning of Services offers */
+
+
+.service-offers .hero-banner{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.service-offers .hero-title {
+    /* font-family: var(--roboto); */
+}
+
+.service-card {
+    padding: 2rem;
+
+}
+
+.card {
+    border: none;
+    padding: 1.5rem 2rem;
+}
+
+.card-content {
+    padding: 3rem 2.5rem;
+    background: rgba(223, 222, 222, 0.212);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s linear
+}
+
+
+.card-content:hover {
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.15)
+}
+
+.service-image img {
+    width: initial;
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: var(--text-color)
+}
+
+/* End of service offers */
+
+/* Beginning of Portfolio */
+
+
+.subheader {
+    margin-bottom: 2rem;
+}
+
+.btn-port {
+    border-radius: 0;
+    transition: 0.5s all ease;
+    border-bottom: 2px solid transparent;
+}
+
+.btn-port:hover
+ {
+    border-bottom: 2px solid var(--primary-color2);
+    color: var(--primary-color2)!important
+}
+
+.portfolio-card {
+    padding: 1.5rem;
+}
+
+.inner-card {
+    transition: 0.5s linear
+}
+
+.inner-card:hover {
+    filter: brightness(1.1);
+    box-shadow: var(--box-shadow);
+    cursor: pointer
+}
+
+.inner-card:hover img {
+    transform: scale(1.1)
+}
+
+
+.inner-card img {
+    transition: 0.6s linear;
+}
+
+
+.portfolio-card-img {
+    overflow: hidden;
+}
+
+
+.active {
+    border-bottom: 2px solid var(--primary-color2); 
+    color: var(--primary-color2)!important;
+    padding: 16px 40px;
+}
+
+.portfolio-card-content{
+    padding: 0rem 1rem 0.5rem;
+}
+.portfolio-card-content h3 {
+    font-size: 1.4rem;
+}
+
+.portfolio-card-content p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.ui-design {
+    margin-bottom: 3rem
+}
+
+
+.subheader {
+    color: var(--main-color);
+    text-align: center;
+}
+
+
+
+/* End of Portfolio */
+
+/* Beginning of Footer */
+footer {
+    background: var(--main-color);
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: white
+}
+
+.footer-content h4 {
+    text-transform: uppercase;
+    color: var(--main-white);
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.social-icons li  {
+    padding: 1.2rem;
+}
+
+.social-icons li a {
+    color: var(--main-white);
+    font-size: 1.5rem;
+    opacity: 0.6;
+    transition: opacity .5s;
+    transition: color .5s
+}
+
+.social-icons li a:hover {
+    color: var(--secondary-font-color);
+    opacity: 1
+}
+
+/* End of Footer */
+
+
+.contact-me {
+    background: var(--primary-color);
+    padding: 3rem
+}
+
+
+
+
+/* Begining of Media Query */
+
+
+@media screen and (min-width: 1000px) {
+
+    
+    .hero-content {
+        margin-top: 5.5rem;
+    }
+
+    .about-me .hero-content {
+        margin-top: 2rem
+    }
+
+        
+    .hero-img img, .about-me-img img {
+        width: 80%;
+        margin-right: -9rem;;
+    }
+
+
+  .nav-button {
+        display: block
+    }
+
+    .nav-item {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .navbar-collapse {
+        margin-right: 2rem
+    }
+
+    .nav-item a{
+        color: #777!important;
+        transition: color 0.6s;
+    }
+    
+    .nav-item:hover{
+        color: var(--primary-color2)!important; 
+    }
+    
+    .nav-item:hover a {
+        color: var(--main-color)!important;
+        margin: 0;
+    }
+        
+    
+    header .navbar .navbar-collapse {
+        background: white;
+    }
+    
+   .extra-padding {
+        padding: 1rem
+    }
+    .card {
+        border: none;
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .card-content {
+        padding: 3rem 1rem;
+    }
+
+
+    .subheader {
+        color: var(--main-color);
+        text-align: left;
+    }
+
+  
+}
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 360px) {
+
+    .hero-title h2 {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+
+    .button-primary, .button-secondary {
+        font-size: .7rem;
+        padding: 8px 10px;
+        font-weight: 700
+    }
+
+    .subheader h2 {
+        font-size: 1.2rem;
+        margin-top: -2.5rem;
+    }
+
+    .bold {
+        font-size: 2.4rem!important;
+        line-height: 3rem;
+    }
+
+    .padding-class {
+        padding: 32px 20px;
+    }
+
+    .button-group-1,.button-group-2 {
+        text-align: center;
+
+    }
+
+    .btn-port {
+        margin-right: 0!important
+    }
+    
+    .social-icons {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        padding: 0;
+        margin: 1rem 0;
+    }
+    
+    .card-content {
+        padding: 1rem;
+    }
+
+
+    .skillsets {
+        padding: 4rem 2rem;
+        margin-top: -3rem;
+    }
+    
+    .skillsets .row:first-child {
+        padding: 1rem;
+    }
+    
+    .experience h2 {
+        margin-bottom: -1rem;
+    }
+    
+    .contact-div{
+        margin-top: 5rem
+    }
+    
+    
+    .extra-padding {
+        padding: 2.5rem
+    }
+
+    .contact-me {
+        padding: 2rem;
+        text-align-last: center;
+    }
+
+    
+
+    .skill-logo {
+        padding: 0;
+    }
+    
+    .social-icons li  {
+        padding: 0.5rem;
+    }
+    
+
+    .portfolio-card-content h3 {
+        font-size: 1.1rem
+    }
+
+    .portfolio-card-content p {
+        font-size: .7rem
+    }
+
+    .footer .contact-div {
+        margin-top: 0rem;
+    }
+
+    
+}

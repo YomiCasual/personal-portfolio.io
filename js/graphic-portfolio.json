@@ -1,0 +1,205 @@
+{
+    "graphicPortfolio" : [ 
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer1.jpg",
+            "filter": "flyer",
+            "title": "YOUTH ALIVE",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer2.jpg",
+            "filter": "flyer",
+            "title": "ace5 oprhanage visitation",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer3.jpg",
+            "filter": "flyer",
+            "title": "nayas kitchen",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer4.jpg",
+            "filter": "flyer",
+            "title": "phoenix stead",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer5.jpg",
+            "filter": "flyer",
+            "title": "tradome",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer6.jpg",
+            "filter": "flyer",
+            "title": "experience word",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer7.jpg",
+            "filter": "flyer",
+            "title": "birthday flyer",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer8.jpg",
+            "filter": "flyer",
+            "title": "city desserts",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer9.jpg",
+            "filter": "flyer",
+            "title": "stacks cryptocurrency",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer10.jpg",
+            "filter": "flyer",
+            "title": "stacks cryptocurrency",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer11.jpg",
+            "filter": "flyer",
+            "title": "bloke enterprise",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer12.jpg",
+            "filter": "flyer",
+            "title": "styles by shully",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer13.jpg",
+            "filter": "flyer",
+            "title": "kwasaca certificate",
+            "text": "flyer"
+        } },
+
+
+
+
+        { "item": {
+            "image": "./img/portfolio/logo/logo2.jpg",
+            "filter": "logo",
+            "title": "inspire akpabuyo",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo3.jpg",
+            "filter": "logo",
+            "title": "moore & moore pennysylvania",
+            "text": "logo"
+        } },
+
+        { "item": {
+            "image": "./img/portfolio/logo/logo6.jpg",
+            "filter": "logo",
+            "title": "aso",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo7.jpg",
+            "filter": "logo",
+            "title": "desire's bite",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo8.jpg",
+            "filter": "logo",
+            "title": "mosh official services",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo9.jpg",
+            "filter": "logo",
+            "title": "barrik bags",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo10.jpg",
+            "filter": "logo",
+            "title": "molewa touch beauty",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo11.jpg",
+            "filter": "logo",
+            "title": "bloke enterpises",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo13.jpg",
+            "filter": "logo",
+            "title": "adhomes institute",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo15.jpg",
+            "filter": "logo",
+            "title": "stacks",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo14.jpg",
+            "filter": "logo",
+            "title": "Nayas Kitchen",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo4.jpg",
+            "filter": "logo",
+            "title": "AJ",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo16.jpg",
+            "filter": "logo",
+            "title": "forever thankful",
+            "text": "logo"
+        } },
+
+
+        
+        { "item": {
+            "image": "./img/portfolio/branding/branding1.jpg",
+            "filter": "branding",
+            "title": "Intercorp",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding4.jpg",
+            "filter": "branding",
+            "title": "o-block",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding7.png",
+            "filter": "branding",
+            "title": "two little spuds",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding2.jpg",
+            "filter": "branding",
+            "title": "intercorp",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding6.jpg",
+            "filter": "branding",
+            "title": "letterhead",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding5.jpg",
+            "filter": "branding",
+            "title": "moore & moore pennysylvania",
+            "text": "branding"
+        } }
+        
+    ]
+}
