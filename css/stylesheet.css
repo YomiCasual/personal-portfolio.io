@@ -227,7 +227,7 @@ header .navbar .navbar-collapse {
 
 .margin-bottom {
     padding: 2rem 1rem;
-    margin-bottom: 5rem;;
+    margin-bottom: 3em;;
 }
 
 .button-class {
@@ -290,7 +290,6 @@ header .navbar .navbar-collapse {
     text-transform: initial;
     line-height: 1.6rem;
     color: var(--main-color);
-    margin-bottom: 2rem;;
 }
 
 
@@ -303,15 +302,11 @@ header .navbar .navbar-collapse {
 /* Beggining of skillsets */
 .skillsets {
     padding: 4rem;
-    margin-top: 2rem;
     background: var(--main-color);
     text-align: center;
 
 }
 
-.skillsets .row:first-child {
-    padding: 5rem;
-}
 
 .my-card {
     padding: 2rem 1rem;
@@ -395,9 +390,12 @@ header .navbar .navbar-collapse {
 
 /* Beginning of Services offers */
 
+.service-offers {
+    margin-top: 3rem
+}
+
 
 .service-offers .hero-banner{
-    margin-bottom: 3rem;
     text-align: center;
 }
 .service-offers .hero-title {
@@ -464,6 +462,30 @@ header .navbar .navbar-collapse {
     border-bottom: 2px solid var(--primary-color2);
     color: var(--primary-color2)!important
 }
+
+.check-portfolio {
+    text-align: center;
+}
+
+.portfolio {
+    margin: 3rem 0
+}
+
+.portfolio-header {
+    margin-bottom: 2rem
+}
+
+.portfolio-header h3 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.check-portfolio .button-class  {
+    display: inline;
+}
+
+
 
 .portfolio-card {
     padding: 1.5rem;
@@ -579,6 +601,8 @@ footer {
 
 
 
+
+
 /* Begining of Media Query */
 
 
@@ -589,6 +613,10 @@ footer {
     
     .hero-content {
         margin-top: 5.5rem;
+    }
+
+    .about-me {
+        margin-top: 4rem
     }
 
     .about-me .hero-content {
@@ -651,6 +679,15 @@ footer {
         text-align: left;
     }
 
+    .back-button {
+        background: var(--primary-color);
+    }
+    
+    .back-button a {
+        color: white!important
+    }
+    
+
   
 }
 
@@ -692,6 +729,8 @@ footer {
         padding: 32px 20px;
     }
 
+    
+
     .button-group-1,.button-group-2 {
         text-align: center;
 
@@ -717,7 +756,7 @@ footer {
 
     .skillsets {
         padding: 4rem 2rem;
-        margin-top: -3rem;
+        margin-top: 0!important;
     }
     
     .skillsets .row:first-child {

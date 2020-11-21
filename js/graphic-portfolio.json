@@ -1,5 +1,5 @@
 {
-    "graphicPortfolio" : [ 
+    "Portfolio" : [ 
         { "item": {
             "image": "./img/portfolio/flyer/flyer1.jpg",
             "filter": "flyer",

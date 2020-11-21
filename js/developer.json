@@ -1,0 +1,52 @@
+{
+    "Portfolio" : [ 
+        { "item": {
+            "image": "./img/portfolio/developer/e-commerce-website.png",
+            "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
+            "title": "E-commerce Website",
+            "button": "Visit Website"
+        } },
+        { "item": { 
+            "image": "./img/portfolio/developer/rosa-website.png",
+            "link": "https://yomicasual.github.io/the-rosa-website.io/",
+            "title": "Rosa Website",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/fitness-app.png",
+            "link": "https://yomicasual.github.io/fitness-app/",
+            "title": "Fitness App",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/persona-website.png",
+            "link": "https://yomicasual.github.io/personal-portfolio.io/",
+            "title": "Sleek Website",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/budget-app.png",
+            "link": "https://yomicasual.github.io/budget-app.io/",
+            "title": "Budget App",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/bank-dashboard.png",
+            "link": "https://yomicasual.github.io/bank-admin-dashboard/",
+            "title": "Bank Dashboard",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/weather-app.png",
+            "link": "https://yomicasual.github.io/weather-app/",
+            "title": "Weather App",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/pepsi-landing-page.png",
+            "link": "https://yomicasual.github.io/Pepsi-Landing-Page-Responsive.github.io/",
+            "title": "Pepsi Landing Page",
+            "button": "Visit Website"
+        } }
+    ]
+}

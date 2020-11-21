@@ -1,5 +1,11 @@
 {
-    "graphicPortfolio" : [ 
+    "Portfolio" : [ 
+        { "item": {
+            "image": "./img/portfolio/UI-UX/amazing-treat.jpg",
+            "filter": "desktop",
+            "title": "Amazing Treat",
+            "text": "desktop"
+        } },
         { "item": {
             "image": "./img/portfolio/UI-UX/desktop3.jpg",
             "filter": "desktop",

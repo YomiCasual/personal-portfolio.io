@@ -62,32 +62,37 @@ const allButtonsUI = document.querySelectorAll('.button-group-1 .btn-port')
 
 const graphicDesignCard = select('.graphic-design-card');
 const uiDesignCard = select('.ui-design-card')
+const developerCard = select('.developer-card')
+
 
 
 const addPortfolio = async (file,body) => {
     const data = await fetch(`./js/${file}.json`)
     const graphicPort = await data.json()
     
-    graphicPort.graphicPortfolio.map(item => {
+    graphicPort.Portfolio.map(item => {
         createElement(item.item, body)
     })
 }
 
 
-const createElement = ({ image, filter, title, text}, body) => {
+const createElement = ({ image, filter, title, text, link}, body) => {
     const div = document.createElement('div');
     div.classList = `col-xl-4 col-md-6 col-sm-12 portfolio-card ${filter}`
     div.innerHTML = ` 
          <div class="inner-card">
             <div class="portfolio-card-title">
                 <div class="portfolio-card-img">
-                    <a class="test-popup-link" href=${image}>
+                    <a class=${!link && "test-popup-link" } href=${!link ? image : link} target="_blank">
                         <img src=${image} alt="" >
                     </a>
                 </div>
                 <div class="portfolio-card-content mt-4 text-uppercase">
                     <h3>${title}</h3>
-                    <p>${text}</p>
+                    ${
+                        !link ?  "<p>" + text + "</p>" : "<a class='btn button-primary' href=" + link + " target='_blank' >Visit</a>"
+                    }
+                   
                 </div>
             </div>
             </div>
@@ -117,19 +122,31 @@ const filterCard = (item, button2, element) => {
 
 window.addEventListener("DOMContentLoaded", async (e) => {
 
+    if (buttonFilterGraphic ) {
         buttonFilterGraphic.addEventListener('click', (e)=>  {
             filterCard(e, allButtonsGraphic, ".portfolio .graphic-design-card")
          })
 
-         buttonFilterUI.addEventListener('click', (e) => {
+    }
+
+    if (buttonFilterUI) {
+        buttonFilterUI.addEventListener('click', (e) => {
             filterCard(e, allButtonsUI, ".portfolio .ui-design-card")
          })
 
-    //add portfolio files
-    await addPortfolio("ui-ux-portfolio", uiDesignCard)
+    }
 
-    await addPortfolio("graphic-portfolio", graphicDesignCard)
-
+     if (uiDesignCard) {
+        await addPortfolio("ui-ux-portfolio", uiDesignCard)
+     }
+       
+    if (graphicDesignCard) {
+        await addPortfolio("graphic-portfolio", graphicDesignCard)
+    }
+    
+    if(developerCard) {
+        await addPortfolio("developer", developerCard)
+    }
 
     //gallery popup
 
