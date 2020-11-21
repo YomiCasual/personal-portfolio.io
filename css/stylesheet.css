@@ -40,17 +40,12 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-html, body {
-    overflow-x: hidden!important;
-=======
 .container { 
     overflow: hidden
 }
 
 html, body {
     overflow-x: hidden;
->>>>>>> f3123a6810821e8f6166549793cc807d1dce6615
     width: 100vw;
     scroll-behavior: smooth;
 }
