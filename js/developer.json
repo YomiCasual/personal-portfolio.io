@@ -25,6 +25,24 @@
             "button": "Visit Website"
         } },
         { "item": {
+            "image": "./img/portfolio/developer/house-resort.png",
+            "link": "https://yomicasual.github.io/house-resort/",
+            "title": "House Resort",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/comfy-house.png",
+            "link": "https://yomicasual.github.io/comfy-house/",
+            "title": "Fitness App",
+            "button": "Visit Website"
+        } },
+        { "item": {
+            "image": "./img/portfolio/developer/udamicy.png",
+            "link": "https://yomicasual.github.io/udamicy-website/",
+            "title": "Udamicy",
+            "button": "Visit Website"
+        } },
+        { "item": {
             "image": "./img/portfolio/developer/foodco.png",
             "link": "https://yomicasual.github.io/foodco-webiste/",
             "title": "FoodCo Website",
