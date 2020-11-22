@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&display=swap');
 
 /* Settings  */
 *,
 *::before,
-*::after, body {
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat var(--roboto), sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--montserrat), 'sans-serif';
     scroll-behavior: smooth;
 }
 
@@ -23,7 +31,8 @@
   
 
     /* font family variables. */ 
-    --roboto: 'Roboto', sans-serif;
+    --roboto: 'Roboto', Montserrat;
+    --montserrat: Montserrat
 }
 
 img {
@@ -56,7 +65,7 @@ html, body {
 
 
 .font-family {
-    font-family: var(--roboto);
+    font-family: var(--montserrat);
 }
 
 .title-style {
@@ -189,13 +198,17 @@ header .navbar .navbar-collapse {
     font-weight: 100;
     letter-spacing: 5px;
     margin-bottom: 0.1rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-family: var(--montserrat);
 
 }
+
+
 
 .hero-title h2 {
     font-size: 4rem;
     color:white;
+    font-weight: 700;
 }
 
 .bold {
@@ -289,16 +302,15 @@ header .navbar .navbar-collapse {
 
 /* End of Hero */
 
+.about-me {
+    margin-top: 4rem
+}
+
 
 .about-me .hero-title p {
     text-transform: initial;
     line-height: 1.6rem;
     color: var(--main-color);
-}
-
-
-.about-me img {
-    transform: rotateY(180deg)
 }
 
 
@@ -347,7 +359,7 @@ header .navbar .navbar-collapse {
 }
 
 .work-experience {
-    font-family: var(--roboto);
+    font-family: var(--montserrat);
     margin: auto 0;
 }
 
@@ -435,7 +447,7 @@ header .navbar .navbar-collapse {
 }
 
 .card-title {
-    font-family: var(--roboto);
+    font-family: var(--montserrat);
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 100;
@@ -612,15 +624,10 @@ footer {
 
 @media screen and (min-width: 1000px) {
 
-    
 
     
     .hero-content {
         margin-top: 5.5rem;
-    }
-
-    .about-me {
-        margin-top: 4rem
     }
 
     .about-me .hero-content {
@@ -716,7 +723,7 @@ footer {
     .button-primary, .button-secondary {
         font-size: .7rem;
         padding: 8px 10px;
-        font-weight: 700
+        font-weight: 700;
     }
 
     .subheader h2 {

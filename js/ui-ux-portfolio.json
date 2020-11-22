@@ -7,6 +7,14 @@
             "text": "desktop"
         } },
         { "item": {
+            "image": "./img/portfolio/UI-UX/design-portfolio.jpg",
+            "filter": "desktop",
+            "title": "Sleek Portfolio",
+            "text": "desktop"
+        } },
+        
+        
+        { "item": {
             "image": "./img/portfolio/UI-UX/desktop3.jpg",
             "filter": "desktop",
             "title": "Afrilearn",
