@@ -25,6 +25,12 @@
             "button": "Visit Website"
         } },
         { "item": {
+            "image": "./img/portfolio/developer/foodco.png",
+            "link": "https://yomicasual.github.io/foodco-webiste/",
+            "title": "FoodCo Website",
+            "button": "Visit Website"
+        } },
+        { "item": {
             "image": "./img/portfolio/developer/budget-app.png",
             "link": "https://yomicasual.github.io/budget-app.io/",
             "title": "Budget App",
