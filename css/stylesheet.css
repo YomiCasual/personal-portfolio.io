@@ -507,6 +507,10 @@ header .navbar .navbar-collapse {
     padding: 1.5rem;
 }
 
+.portfolio-card-img {
+    height: 200px
+}
+
 .inner-card {
     transition: 0.5s linear
 }
@@ -612,6 +616,35 @@ footer {
 .contact-me {
     background: var(--primary-color);
     padding: 3rem
+}
+
+.mfp-wrap.scrolling-image .mfp-content {
+    max-width: 60%;
+    margin: 0 auto;
+    
+}
+.mfp-wrap.scrolling-image .mfp-content .mfp-close {
+    position: relative;
+    right: 0;
+    height: auto;
+    line-height: 1;
+    font-size: 40px;
+}
+.mfp-content .mfp-figure {
+    display: flex;
+    flex-direction: column;
+}
+.mfp-wrap.scrolling-image .scrolling-viewport {
+    max-height: 60vh;
+    max-width: 60vw;
+    overflow-y: scroll;
+    margin: 40px 0;
+}
+    
+.mfp-wrap.scrolling-image .mfp-content img {
+        padding: 0;
+        max-height: 90%;
+        overflow-y: scroll;
 }
 
 
