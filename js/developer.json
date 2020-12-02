@@ -1,5 +1,11 @@
 {
     "Portfolio" : [ 
+         { "item": {
+            "image": "./img/portfolio/developer/quizy-app.png",
+            "link": "https://quizy-app.netlify.app/",
+            "title": "Quizzy App",
+            "button": "Visit Website"
+        } },
         { "item": {
             "image": "./img/portfolio/developer/e-commerce-website.png",
             "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
