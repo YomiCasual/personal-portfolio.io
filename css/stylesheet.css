@@ -652,9 +652,10 @@ a {
 }
 
 a:focus,
-a:active {
+a:active,
+button:focus,
+button:active {
 	outline: none;
-	border: none;
 }
 
 .button-img {
