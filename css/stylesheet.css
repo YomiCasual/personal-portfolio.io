@@ -719,6 +719,9 @@ button:active {
 		padding: 2rem 0;
 		text-align: center;
 	}
+	.button-group {
+		margin: 0 0 1.5rem;
+	}
 	#root {
 		width: 70vw;
 		margin: 0 auto;
@@ -737,6 +740,9 @@ button:active {
 @media screen and (min-width: 1000px) {
 	.hero-content {
 		margin-top: 5.5rem;
+	}
+	.button-group {
+		margin: 0;
 	}
 
 	.about-me .hero-content {
