@@ -104,7 +104,7 @@ const createElement = (
 	} else {
 		div.classList = `col-xl-12 col-md-12 col-sm-12 portfolio-card no-padding`;
 		div.innerHTML = ` 
-                    <div class="portfolio-card-img" style="object-fit: none">
+                    <div class="portfolio-card-img img-hidden" style="object-fit: none">
                     <a class=${!link && "test-popup-link"} href=${
 			!link ? image : link
 		} target="_blank">
