@@ -212,8 +212,17 @@ header .navbar .navbar-collapse {
 }
 
 .hero-title .sub-headline {
-	font-size: 0.9rem;
+	font-size: 1.6rem;
 	color: var(--primary-color2);
+	margin-bottom: 1rem;
+}
+
+.slider {
+	margin-bottom: 1rem;
+}
+
+.text-slider-items {
+	display: none;
 }
 
 .sub-headline i {
@@ -739,7 +748,7 @@ button:active {
 
 @media screen and (min-width: 1000px) {
 	.hero-content {
-		margin-top: 5.5rem;
+		margin: 4.5rem 0;
 	}
 	.button-group {
 		margin: 0;

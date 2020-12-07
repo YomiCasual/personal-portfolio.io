@@ -84,14 +84,18 @@
                 <div class="col-lg-6 col-md-12 hero-content margin-bottom animate-left">
                     <div class="hero-title text-uppercase">
                        <h3>meet</h3>  
-                       <h2 class="bold">Otaoba<span>yomi</span></h2>
-                       <p class="sub-headline">
-                           <span>UI Designer</span>
-                           <i class="fas fa-asterisk"></i>
-                           <span>Graphic Designer</span>
-                           <i class="fas fa-asterisk"></i>
-                           <span>Developer</span>
-                        </p>
+                       <h2 class="bold" >Otaoba<span>yomi</span></h2>
+                      
+                       <div class="slider" >
+                        <span class="text-slider-items sub-headline">
+                            I am a UI/UX Designer , 
+                            I am a Front-End Developer , 
+                            I am a Product Designer
+                         
+                       </span>
+                       <strong class="text-slider sub-headline"></strong>
+                       </div>
+                      
                     </div>
                     <div class="button-class text-uppercase">
                         <a href="./designer-portfolio.html" class="btn button-primary">
@@ -124,7 +128,7 @@
                 <div class="col-lg-6 col-md-12 hero-content margin-bottom animate-right">
                     <div class="hero-title text-uppercase">
                        <h2 class="semi-bold title-style">facts <span>about</span><span>me</span></h2>
-                       <p class="sub-headline">
+                       <p class="">
                         I am ambitious, purpose driven, and a progressive learner. A Graphic/UI Designer with over 5 years experience. Aldroit at
                         the use of Adobe Photoshop, Lightroom, Illustrator, Figma, Coreldraw. A passionate front-end developer and comfortable
                         utililizing programming language/frameworks such as Javascript, React, Nodejs, Express, MongoDB, Python and
@@ -401,6 +405,20 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+    <script src="./js/lib/typed.min.js"></script>
+
+    <script> 
+        if ($(".text-slider").length == 1) { 
+            var typed_strings = $(".text-slider-items").text(); 
+            var typed = new Typed(".text-slider", { 
+                strings: typed_strings.split(", "), 
+                typeSpeed: 50, 
+                loop: true, 
+                backDelay: 900, 
+                backSpeed: 30, 
+            }); 
+        } 
+    </script> 
 
 
 </body>
