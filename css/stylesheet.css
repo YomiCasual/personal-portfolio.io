@@ -698,6 +698,9 @@ button:active {
 }
 
 @media (min-width: 760px) {
+	.portfolio-card-img {
+		height: 200px!important;
+	}
 	.img-hidden {
 		display: none;
 	}
@@ -820,7 +823,10 @@ button:active {
 	}
 }
 
-@media screen and (min-width: 250px) and (max-width: 360px) {
+@media screen and (min-width: 250px) and (max-width: 390px) {
+	.portfolio-card-img {
+		height: 150px!important;
+	}
 	body {
 		overflow-x: hidden;
 		width: 100vw;

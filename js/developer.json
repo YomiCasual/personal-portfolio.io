@@ -1,5 +1,25 @@
 {
-    "Portfolio" : [ 
+    "Portfolio" : [
+        { "item": {
+            "image": "./img/portfolio/developer/respay.png",
+            "link": "https://respay.com/",
+            "title": "Respay",
+            "button": "Visit Website"
+        } }, 
+     
+        { "item": {
+            "image": "./img/portfolio/developer/one-burner.png",
+            "link": "https://yomicasual.github.io/one-burner/",
+            "title": "One Burner",
+            "button": "Visit Website"
+        } }, 
+        { "item": {
+            "image": "./img/portfolio/developer/sleekmovies.png",
+            "link": "https://sleekmovie.netlify.app/",
+            "title": "Sleek Movies",
+            "button": "Visit Website"
+        } }, 
+        
          { "item": {
             "image": "./img/portfolio/developer/quizy-app.png",
             "link": "https://quizy-app.netlify.app/",
@@ -8,10 +28,17 @@
         } },
         { "item": {
             "image": "./img/portfolio/developer/e-commerce-website.png",
-            "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
+            "link": "https://yomicasual.github.io/skooleeo-technology/classes.html",
             "title": "E-commerce Website",
             "button": "Visit Website"
         } },
+        { "item": {
+            "image": "./img/portfolio/developer/skooleeo.png",
+            "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
+            "title": "Skooleeo Technology",
+            "button": "Visit Website"
+        } },
+        
         { "item": { 
             "image": "./img/portfolio/developer/rosa-website.png",
             "link": "https://yomicasual.github.io/the-rosa-website.io/",
