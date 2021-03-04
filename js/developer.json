@@ -28,15 +28,15 @@
         } },
         { "item": {
             "image": "./img/portfolio/developer/e-commerce-website.png",
-            "link": "https://yomicasual.github.io/skooleeo-technology/classes.html",
+            "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
             "title": "E-commerce Website",
             "button": "Visit Website"
-        } },
-        { "item": {
-            "image": "./img/portfolio/developer/skooleeo.png",
-            "link": "https://yomicasual.github.io/e-commerce-app-react-live/",
-            "title": "Skooleeo Technology",
-            "button": "Visit Website"
+            } },
+            { "item": {
+                "image": "./img/portfolio/developer/skooleeo.png",
+                "link": "https://yomicasual.github.io/skooleeo-technology/classes.html",
+                "title": "Skooleeo Technology",
+                "button": "Visit Website"
         } },
         
         { "item": { 
