@@ -8,6 +8,12 @@
         } }, 
      
         { "item": {
+            "image": "./img/portfolio/developer/vasiti.png",
+            "link": "https://vasiti-testimonia.netlify.app/",
+            "title": "Vasiti",
+            "button": "Visit Website"
+        } }, 
+        { "item": {
             "image": "./img/portfolio/developer/one-burner.png",
             "link": "https://yomicasual.github.io/one-burner/",
             "title": "One Burner",

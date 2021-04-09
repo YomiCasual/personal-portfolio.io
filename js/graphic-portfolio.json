@@ -7,6 +7,42 @@
             "text": "flyer"
         } },
         { "item": {
+            "image": "./img/portfolio/flyer/flyer14.jpg",
+            "filter": "flyer",
+            "title": "Navigating Grad School",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer16.jpg",
+            "filter": "flyer",
+            "title": "I-Scholar",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer20.jpg",
+            "filter": "flyer",
+            "title": "Farm Byte",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer18.jpg",
+            "filter": "flyer",
+            "title": "I-Scholar Open",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer19.jpg",
+            "filter": "flyer",
+            "title": "Nikkah IV",
+            "text": "flyer"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer22.jpg",
+            "filter": "flyer",
+            "title": "New Year Sales",
+            "text": "flyer"
+        } },
+        { "item": {
             "image": "./img/portfolio/flyer/flyer2.jpg",
             "filter": "flyer",
             "title": "ace5 oprhanage visitation",
@@ -82,6 +118,60 @@
 
 
 
+        { "item": {
+            "image": "./img/portfolio/logo/logo17.jpg",
+            "filter": "logo",
+            "title": "Phenomenal",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo18.jpg",
+            "filter": "logo",
+            "title": "Tube Guard",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo19.jpg",
+            "filter": "logo",
+            "title": "Vickie Exchanger",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo21.jpg",
+            "filter": "logo",
+            "title": "Total Household Pro",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo22.jpg",
+            "filter": "logo",
+            "title": "Lend a Hand",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo23.jpg",
+            "filter": "logo",
+            "title": "HBCU Forward",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo24.jpg",
+            "filter": "logo",
+            "title": "Haute Chic",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo25.jpg",
+            "filter": "logo",
+            "title": "Desert Color",
+            "text": "logo"
+        } },
+        { "item": {
+            "image": "./img/portfolio/logo/logo26.jpg",
+            "filter": "logo",
+            "title": "Farm Byte",
+            "text": "logo"
+        } },
         { "item": {
             "image": "./img/portfolio/logo/logo2.jpg",
             "filter": "logo",
@@ -164,6 +254,42 @@
 
 
         
+        { "item": {
+            "image": "./img/portfolio/branding/branding8.jpg",
+            "filter": "branding",
+            "title": "FarmByte LetterHead",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding9.jpg",
+            "filter": "branding",
+            "title": "FarmByte BusinessCard",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding10.jpg",
+            "filter": "branding",
+            "title": "Sleek Branding",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/flyer/flyer21.png",
+            "filter": "branding",
+            "title": "Magazine",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding12.jpg",
+            "filter": "branding",
+            "title": "Vivid Luxury",
+            "text": "branding"
+        } },
+        { "item": {
+            "image": "./img/portfolio/branding/branding11.png",
+            "filter": "branding",
+            "title": "Farm Byte",
+            "text": "branding"
+        } },
         { "item": {
             "image": "./img/portfolio/branding/branding1.jpg",
             "filter": "branding",

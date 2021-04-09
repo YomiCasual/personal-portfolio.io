@@ -20,6 +20,12 @@
             "title": "Sleek Portfolio",
             "text": "desktop"
         } },
+        { "item": {
+            "image": "./img/portfolio/UI-UX/desktop9.jpg",
+            "filter": "desktop",
+            "title": "Sleek Portfolio 2",
+            "text": "desktop"
+        } },
         
         
         { "item": {
